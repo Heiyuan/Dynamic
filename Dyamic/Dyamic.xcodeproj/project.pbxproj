@@ -15,6 +15,12 @@
 		73456A991CE2A3FB000CF15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73456A971CE2A3FB000CF15D /* LaunchScreen.storyboard */; };
 		73456AA41CE2A3FB000CF15D /* DyamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73456AA31CE2A3FB000CF15D /* DyamicTests.m */; };
 		73456AAF1CE2A3FB000CF15D /* DyamicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73456AAE1CE2A3FB000CF15D /* DyamicUITests.m */; };
+		739C99DC1CE430E800BA274F /* ping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 739C99DA1CE430E800BA274F /* ping.mp3 */; };
+		739C99DF1CE44E6000BA274F /* SnapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C99DE1CE44E6000BA274F /* SnapController.m */; };
+		739C99E21CE44E7800BA274F /* PushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C99E11CE44E7800BA274F /* PushController.m */; };
+		73B845C91CE2D11D009ACB93 /* taotaocell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B845C81CE2D11D009ACB93 /* taotaocell.m */; };
+		73B845D61CE2FF1B009ACB93 /* GravityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B845D41CE2FF1B009ACB93 /* GravityController.m */; };
+		73B845DA1CE318D1009ACB93 /* AdsorbController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B845D91CE318D1009ACB93 /* AdsorbController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		73456AAA1CE2A3FB000CF15D /* DyamicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyamicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73456AAE1CE2A3FB000CF15D /* DyamicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DyamicUITests.m; sourceTree = "<group>"; };
 		73456AB01CE2A3FB000CF15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739C99DA1CE430E800BA274F /* ping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ping.mp3; sourceTree = "<group>"; };
+		739C99DD1CE44E6000BA274F /* SnapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapController.h; sourceTree = "<group>"; };
+		739C99DE1CE44E6000BA274F /* SnapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapController.m; sourceTree = "<group>"; };
+		739C99E01CE44E7800BA274F /* PushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushController.h; sourceTree = "<group>"; };
+		739C99E11CE44E7800BA274F /* PushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushController.m; sourceTree = "<group>"; };
+		73B845C71CE2D11D009ACB93 /* taotaocell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taotaocell.h; sourceTree = "<group>"; };
+		73B845C81CE2D11D009ACB93 /* taotaocell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taotaocell.m; sourceTree = "<group>"; };
+		73B845D31CE2FF1B009ACB93 /* GravityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityController.h; sourceTree = "<group>"; };
+		73B845D41CE2FF1B009ACB93 /* GravityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityController.m; sourceTree = "<group>"; };
+		73B845D81CE318D1009ACB93 /* AdsorbController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsorbController.h; sourceTree = "<group>"; };
+		73B845D91CE318D1009ACB93 /* AdsorbController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsorbController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,21 @@
 		73456A881CE2A3FB000CF15D /* Dyamic */ = {
 			isa = PBXGroup;
 			children = (
+				739C99DA1CE430E800BA274F /* ping.mp3 */,
 				73456A8C1CE2A3FB000CF15D /* AppDelegate.h */,
 				73456A8D1CE2A3FB000CF15D /* AppDelegate.m */,
 				73456A8F1CE2A3FB000CF15D /* ViewController.h */,
 				73456A901CE2A3FB000CF15D /* ViewController.m */,
+				73B845C71CE2D11D009ACB93 /* taotaocell.h */,
+				73B845C81CE2D11D009ACB93 /* taotaocell.m */,
+				73B845D31CE2FF1B009ACB93 /* GravityController.h */,
+				73B845D41CE2FF1B009ACB93 /* GravityController.m */,
+				73B845D81CE318D1009ACB93 /* AdsorbController.h */,
+				73B845D91CE318D1009ACB93 /* AdsorbController.m */,
+				739C99DD1CE44E6000BA274F /* SnapController.h */,
+				739C99DE1CE44E6000BA274F /* SnapController.m */,
+				739C99E01CE44E7800BA274F /* PushController.h */,
+				739C99E11CE44E7800BA274F /* PushController.m */,
 				73456A921CE2A3FB000CF15D /* Main.storyboard */,
 				73456A951CE2A3FB000CF15D /* Assets.xcassets */,
 				73456A971CE2A3FB000CF15D /* LaunchScreen.storyboard */,
@@ -243,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739C99DC1CE430E800BA274F /* ping.mp3 in Resources */,
 				73456A991CE2A3FB000CF15D /* LaunchScreen.storyboard in Resources */,
 				73456A961CE2A3FB000CF15D /* Assets.xcassets in Resources */,
 				73456A941CE2A3FB000CF15D /* Main.storyboard in Resources */,
@@ -271,8 +300,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				73456A911CE2A3FB000CF15D /* ViewController.m in Sources */,
+				739C99DF1CE44E6000BA274F /* SnapController.m in Sources */,
 				73456A8E1CE2A3FB000CF15D /* AppDelegate.m in Sources */,
+				73B845D61CE2FF1B009ACB93 /* GravityController.m in Sources */,
 				73456A8B1CE2A3FB000CF15D /* main.m in Sources */,
+				73B845DA1CE318D1009ACB93 /* AdsorbController.m in Sources */,
+				73B845C91CE2D11D009ACB93 /* taotaocell.m in Sources */,
+				739C99E21CE44E7800BA274F /* PushController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dyamic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GOMARKET.Dyamic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dyamic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GOMARKET.Dyamic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +532,7 @@
 				73456AB51CE2A3FB000CF15D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73456AB61CE2A3FB000CF15D /* Build configuration list for PBXNativeTarget "DyamicTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +541,7 @@
 				73456AB81CE2A3FB000CF15D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73456AB91CE2A3FB000CF15D /* Build configuration list for PBXNativeTarget "DyamicUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +550,7 @@
 				73456ABB1CE2A3FB000CF15D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
