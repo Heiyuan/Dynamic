@@ -74,6 +74,10 @@
     NSLog(@"%@%@",item1,item2);
     NSLog(@"%@",NSStringFromCGPoint(p));
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        if ([_player isPlaying])
+        {
+            _player.currentTime = 0;
+        }
         [_player play];
         
     });
