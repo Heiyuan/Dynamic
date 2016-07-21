@@ -55,7 +55,7 @@
     //阻力
     [itembehaviour setResistance:0];
     //是否允许旋转
-    itembehaviour.allowsRotation = YES;
+    itembehaviour.allowsRotation = NO;
     [_animator addBehavior:itembehaviour];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"ping" ofType:@"mp3"];
     _pingurl = [NSURL fileURLWithPath:path];
